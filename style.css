@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #14213d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Tab */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #2bc3f1;
+}
+
+/* Section Page */
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #14213d;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Home Page */
+#home {
+    background-color: #e8f4ff;
+    padding: 70px 20px;
+}
+
+#home h2 {
+    font-size: 32px;
+}
+
+/* About Page */
+#about {
+    background-color: white;
+}
+
+/* Project  */
+#projects {
+    background-color: #f4f7fb;
+}
+
+.project {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    color: #2455a4;
+    margin-bottom: 10px;
+}
+
+/* Contact Page */
+#contact {
+    background-color: white;
+}
+
+form {
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2455a4;
+}
+
+button {
+    background-color: #14213d;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2455a4;
+}
+
+/* Form Page */
+#result {
+    color: #16803c;
+    font-weight: bold;
+}
+
+/* Footer Page */
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Design For Mobile  */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    #home h2 {
+        font-size: 25px;
+    }
+
+    .project {
+        padding: 18px;
+    }
+}

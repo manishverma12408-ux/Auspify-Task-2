@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Hello, I'm a Web Developer</h2>
+        <p>Welcome to my personal portfolio website.</p>
+        <p>Here you can learn about my skills and projects.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Manish. I am learning web development and creating websites.</p>
+        <p>I use HTML, CSS and JavaScript to build simple web pages.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Auspify Landing Page</h3>
+            <p>A simple company website made using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <h3>College Placement Portal</h3>
+            <p>A simple website made using HTML, CSS, JavaScript, Node.js with Express.js, MongoDB.</p>
+        </div>
+
+        <div class="project">
+            <h3>Personal Portfolio</h3>
+            <p>A website to show my skills and work.</p>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>My Portfolio | Created by Manish Verma</p>
+    </footer>
+
+</body>
+</html>
